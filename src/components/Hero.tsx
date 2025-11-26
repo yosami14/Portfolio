@@ -1,4 +1,5 @@
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import profileImg from '../assets/Untitled design (3).png'; // Adjust the path if necessary
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -92,7 +93,7 @@ export default function Hero() {
                 <div className="relative">
                   <div className="w-72 md:w-80 lg:w-96 rounded-3xl overflow-hidden shadow-2xl transform group-hover:scale-105 transition-all duration-500 group-hover:rotate-2">
                     <img
-                      src="/src/assets/Untitled design (3).png"
+                      src={profileImg}
                       alt="Samuel Yohannes"
                       className="w-full h-auto object-contain"
                     />
